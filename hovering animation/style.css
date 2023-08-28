@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+html,body{
+   height: 100px;
+   width: 100px;
+
+}
+main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+#elem{
+    height: 120px;
+    width: 100vw;
+    
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    mix-blend-mode: difference;
+}
+#elem h1{
+    font-size: 100px;
+}
+#elem img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    transition: all ease 0.3s;
+    mix-blend-mode: difference;
+    /* transform: translate(-50%,-50%); */
+}
